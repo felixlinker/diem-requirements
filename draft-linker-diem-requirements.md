@@ -72,6 +72,7 @@ Digital emblems under IHL MUST identify the issuing party and MUST provide a mea
 Validators MUST be able to verify that an emblem was issued for the respective bearer, issued by the claimed issuer (where applicable), and that none of its associated data was changed.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 ### Issuance and Authorization
@@ -80,6 +81,7 @@ Validators MUST be able to verify that an emblem issuer was authorized to issue 
 Authorizing parties MAY limit what emblems an issuer can issue, e.g., they MAY limit issuance to certain bearers.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 #### Decentralization
@@ -87,6 +89,7 @@ Use cases that have this requirement:
 Anyone MUST be able to authorize an issuer.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 #### Accountability
@@ -95,6 +98,7 @@ Emblem issuance and authorization of issuers MUST be attributable to issuers and
 Authorizing parties and emblem issuers MUST NOT be able to repudiate that they issued an emblem or authorization.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 #### Revocation
@@ -103,6 +107,7 @@ Emblems and authorizations MUST be revokable within reasonable windows of time.
 Depending on the design, it may suffice to rely on expiration of short-lived emblems and authorization effectively as a revocation mechanism.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 ### Covert Inspection
@@ -110,6 +115,7 @@ Use cases that have this requirement:
 Emblem issuers MUST NOT be able to detect whether someone is requesting or validating emblems issued by them.
 
 Use cases that have this requirement:
+
 - Emblems under IHL
 
 # Other Use Cases and Requirements

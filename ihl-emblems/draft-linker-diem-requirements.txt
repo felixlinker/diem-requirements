@@ -128,7 +128,9 @@ Table of Contents
    respective bearer, issued by the claimed issuer (where applicable),
    and that none of its associated data was changed.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 3.2.2.  Issuance and Authorization
 
@@ -137,13 +139,17 @@ Table of Contents
    emblems an issuer can issue, e.g., they MAY limit issuance to certain
    bearers.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 3.2.2.1.  Decentralization
 
    Anyone MUST be able to authorize an issuer.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 3.2.2.2.  Accountability
 
@@ -152,7 +158,9 @@ Table of Contents
    issuers MUST NOT be able to repudiate that they issued an emblem or
    authorization.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 3.2.2.3.  Revocation
 
@@ -161,14 +169,18 @@ Table of Contents
    expiration of short-lived emblems and authorization effectively as a
    revocation mechanism.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 3.2.3.  Covert Inspection
 
    Emblem issuers MUST NOT be able to detect whether someone is
    requesting or validating emblems issued by them.
 
-   Use cases that have this requirement: - Emblems under IHL
+   Use cases that have this requirement:
+
+   *  Emblems under IHL
 
 4.  Other Use Cases and Requirements
 

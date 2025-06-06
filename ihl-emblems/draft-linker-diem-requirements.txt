@@ -72,8 +72,9 @@ Table of Contents
        3.1.1.  Digital Emblems under International Humanitarian Law
      3.2.  Requirements
        3.2.1.  Authenticity
-       3.2.2.  Issuance and Authorization
-       3.2.3.  Covert Inspection
+       3.2.2.  Authorization
+       3.2.3.  Accountability
+       3.2.4.  Covert Inspection
    4.  Other Use Cases and Requirements
      4.1.  Use Cases
      4.2.  Requirements
@@ -132,7 +133,7 @@ Table of Contents
 
    *  Emblems under IHL
 
-3.2.2.  Issuance and Authorization
+3.2.2.  Authorization
 
    Validators MUST be able to verify that an emblem issuer was
    authorized to issue the emblem.  Authorizing parties MAY limit what
@@ -143,7 +144,7 @@ Table of Contents
 
    *  Emblems under IHL
 
-3.2.2.1.  Decentralization
+3.2.2.1.  Decentralized Authorization
 
    Anyone MUST be able to authorize an issuer.
 
@@ -151,18 +152,18 @@ Table of Contents
 
    *  Emblems under IHL
 
-3.2.2.2.  Accountability
+3.2.3.  Accountability
 
-   Emblem issuance and authorization of issuers MUST be attributable to
-   issuers and authorizing parties.  Authorizing parties and emblem
-   issuers MUST NOT be able to repudiate that they issued an emblem or
-   authorization.
+   Emblem issuance and authorization of issuers (where applicable) MUST
+   be attributable to issuers and authorizing parties.  Authorizing
+   parties and emblem issuers MUST NOT be able to repudiate that they
+   issued an emblem or authorization.
 
    Use cases that have this requirement:
 
    *  Emblems under IHL
 
-3.2.2.3.  Revocation
+3.2.3.1.  Revocation
 
    Emblems and authorizations MUST be revokable within reasonable
    windows of time.  Depending on the design, it may suffice to rely on
@@ -173,7 +174,7 @@ Table of Contents
 
    *  Emblems under IHL
 
-3.2.3.  Covert Inspection
+3.2.4.  Covert Inspection
 
    Emblem issuers MUST NOT be able to detect whether someone is
    requesting or validating emblems issued by them.

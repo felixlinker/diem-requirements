@@ -49,6 +49,17 @@ TODO Introduction
 
 {::boilerplate bcp14-tagged}
 
+# Use Cases and Requirements for Initial Scope
+
+## Use Cases
+
+## Requirements
+
+# Other Use Cases and Requirements
+
+## Use Cases
+
+## Requirements
 
 # Security Considerations
 

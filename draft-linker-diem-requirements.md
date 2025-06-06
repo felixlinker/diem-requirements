@@ -75,7 +75,7 @@ Use cases that have this requirement:
 
 - Emblems under IHL
 
-### Issuance and Authorization
+### Authorization
 
 Validators MUST be able to verify that an emblem issuer was authorized to issue the emblem.
 Authorizing parties MAY limit what emblems an issuer can issue, e.g., they MAY limit issuance to certain bearers.
@@ -84,7 +84,7 @@ Use cases that have this requirement:
 
 - Emblems under IHL
 
-#### Decentralization
+#### Decentralized Authorization
 
 Anyone MUST be able to authorize an issuer.
 
@@ -92,9 +92,9 @@ Use cases that have this requirement:
 
 - Emblems under IHL
 
-#### Accountability
+### Accountability
 
-Emblem issuance and authorization of issuers MUST be attributable to issuers and authorizing parties.
+Emblem issuance and authorization of issuers (where applicable) MUST be attributable to issuers and authorizing parties.
 Authorizing parties and emblem issuers MUST NOT be able to repudiate that they issued an emblem or authorization.
 
 Use cases that have this requirement:

@@ -3,9 +3,9 @@
 
 
 Digital Emblems                                                F. Linker
-Internet-Draft                                               6 June 2025
+Internet-Draft                                              10 June 2025
 Intended status: Informational                                          
-Expires: 8 December 2025
+Expires: 12 December 2025
 
 
                     DIEM Use Cases and Requirements
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 December 2025.
+   This Internet-Draft will expire on 12 December 2025.
 
 Copyright Notice
 
@@ -74,7 +74,7 @@ Table of Contents
        3.2.1.  Authenticity
        3.2.2.  Authorization
        3.2.3.  Accountability
-       3.2.4.  Covert Inspection
+       3.2.4.  Undetectable Validation
    4.  Other Use Cases and Requirements
      4.1.  Use Cases
      4.2.  Requirements
@@ -102,21 +102,25 @@ Table of Contents
 
 3.1.1.  Digital Emblems under International Humanitarian Law
 
-   The Geneva Conventions and their _Additional Protocols_ (APs)
-   constitute the core of International Humanitarian Law (IHL) and
-   establish legal rules on the conduct of armed conflict.  They codify
-   four types of protective emblems, which inform other parties that
-   assets bearing them must not be attacked:
+   The Geneva Conventions and their Additional Protocols constitute the
+   core of International Humanitarian Law (IHL) and establish legal
+   rules on the conduct of armed conflict.  They codify four types of
+   protective emblems for armed conflict, which identify assets bearing
+   them as respected and protected under IHL.
 
-   *  The emblems of the Red Cross, Red Crystal, and Red Crescent is
-      applied to assets that undertake medical functions.
+   *  The emblems of the Red Cross, Red Crescent, and Red Crystal are
+      applied to assets of the medical services as well as the assets of
+      certain humanitarian operations.
 
-   *  The Blue Shield emblem to identify cultural property.
+   *  The Blue Shield emblem is applied to cultural property.
 
-   *  The emblem for the protection of civil defense.
+   *  The emblem for the protection of civil defense is applied to
+      assets for protecting the civilian population against the dangers
+      of hostilities or disasters.
 
-   *  The emblem to identify objects containing dangerous forces, i.e.,
-      whose destruction can release dangerous forces.
+   *  The dangerous forces emblem is applied to works or installations
+      containing dangerous forces, i.e., dams, dikes, and nuclear
+      generating facilities.
 
    Digital emblems under IHL MUST identify the issuing party and MUST
    provide a means for authorization by third parties.
@@ -174,7 +178,7 @@ Table of Contents
 
    *  Emblems under IHL
 
-3.2.4.  Covert Inspection
+3.2.4.  Undetectable Validation
 
    Emblem issuers MUST NOT be able to detect whether someone is
    requesting or validating emblems issued by them.

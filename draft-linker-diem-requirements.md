@@ -55,6 +55,12 @@ TODO Introduction
 
 ## Requirements
 
+# Other Use Cases and Requirements
+
+## Use Cases
+
+## Requirements
+
 ### Authenticity
 
 Validators MUST be able to verify that an emblem was issued for the respective bearer, issued by the claimed issuer (where applicable), and that none of its associated data was changed.
@@ -94,21 +100,15 @@ Emblem issuers MUST NOT be able to detect whether someone is requesting or valid
 
 Use cases that have this requirement:
 
-### Law Carrying
-
-An emblem MUST carry an unambiguous indication of the international law or laws conferring the semantics of the emblem.
-
-Use cases that have this requirement:
-
-# Other Use Cases and Requirements
-
-## Use Cases
-
-## Requirements
-
 ### Visual
 
 An emblem MUST be capable of carrying a visual representation of the physical emblem it represents.
+
+Use cases that have this requirement:
+
+### Law Carrying
+
+An emblem MUST carry an unambiguous indication of the international law or laws conferring the semantics of the emblem.
 
 Use cases that have this requirement:
 

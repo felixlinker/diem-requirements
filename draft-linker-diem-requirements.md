@@ -56,11 +56,11 @@ TODO Introduction
 ### Digital Emblems under International Humanitarian Law
 
 The Geneva Conventions and their Additional Protocols constitute the core of International Humanitarian Law (IHL) and establish legal rules on the conduct of armed conflict.
-They codify four types of protective emblems for armed conflict, which identify assets bearing them as respected and protected under IHL.
+They codify four types of protective emblems for armed conflict, which inform other parties of certain specific protections under IHL, including that they must not be attacked.
 
 - The emblems of the Red Cross, Red Crescent, and Red Crystal are applied to assets of the medical services as well as the assets of certain humanitarian operations.
 - The Blue Shield emblem is applied to cultural property.
-- The emblem for the protection of civil defense is applied to assets for protecting the civilian population against the dangers of hostilities or disasters.
+- The emblem for the protection of civil defense is applied to certain assets for the protection of the civilian population against the dangers of hostilities or disasters.
 - The dangerous forces emblem is applied to works or installations containing dangerous forces, i.e., dams, dikes, and nuclear generating facilities.
 
 Digital emblems under IHL MUST identify the issuing party and MUST provide a means for authorization by third parties.

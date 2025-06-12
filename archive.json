@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-10T01:42:20.121545+00:00",
+  "timestamp": "2025-06-12T01:40:45.354570+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -50,5 +50,93 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOO3I8WM6Z_HSR",
+      "title": "Requirements",
+      "url": "https://github.com/felixlinker/diem-requirements/pull/1",
+      "state": "OPEN",
+      "author": "felixlinker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
+      "createdAt": "2025-06-11T08:26:03Z",
+      "updatedAt": "2025-06-11T08:31:22Z",
+      "baseRepository": "felixlinker/diem-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
+      "headRepository": "felixlinker/diem-requirements",
+      "headRefName": "reqs",
+      "headRefOid": "69d201bf31e3158807d99955677d77a62da9879d",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOO3I8WM6t0Owg",
+          "commit": {
+            "abbreviatedOid": "69d201b"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-11T08:27:36Z",
+          "updatedAt": "2025-06-11T08:27:36Z",
+          "comments": [
+            {
+              "originalPosition": 53,
+              "body": "I find both these requirements a bit too strong. Either a client knows how to parse an emblem or they don't. In case a client knows how to parse it, clients are free to provide references to visual representations or laws, but why enforce the encoding of these? Seems to make standards overly bloaty.",
+              "createdAt": "2025-06-11T08:27:36Z",
+              "updatedAt": "2025-06-11T08:27:36Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6t0Pee",
+          "commit": {
+            "abbreviatedOid": "69d201b"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-11T08:28:33Z",
+          "updatedAt": "2025-06-11T08:28:33Z",
+          "comments": [
+            {
+              "originalPosition": 77,
+              "body": "This requirement is not entirely clear to me. I took it from the draft-haberman-digital-emblem-ps-03. Should the issuer or an authorizating party be able to do so? Or both?",
+              "createdAt": "2025-06-11T08:28:33Z",
+              "updatedAt": "2025-06-11T08:28:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6t0QLI",
+          "commit": {
+            "abbreviatedOid": "69d201b"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-11T08:29:29Z",
+          "updatedAt": "2025-06-11T08:29:29Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "I find this requirement too open. I would presume that individual use cases have specific types of additional, relevant information, and we should be able to spell out what information that is. This is basically asking for a free text field otherwise (but maybe that's desired). I think the requirement could benefit from specificity.",
+              "createdAt": "2025-06-11T08:29:29Z",
+              "updatedAt": "2025-06-11T08:29:29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

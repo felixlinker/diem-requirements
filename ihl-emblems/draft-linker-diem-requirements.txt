@@ -3,9 +3,9 @@
 
 
 Digital Emblems                                                F. Linker
-Internet-Draft                                              11 June 2025
+Internet-Draft                                              13 June 2025
 Intended status: Informational                                          
-Expires: 13 December 2025
+Expires: 15 December 2025
 
 
                     DIEM Use Cases and Requirements
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 December 2025.
+   This Internet-Draft will expire on 15 December 2025.
 
 Copyright Notice
 
@@ -68,19 +68,13 @@ Table of Contents
    1.  Introduction
    2.  Conventions and Definitions
    3.  Use Cases and Requirements for Initial Scope
-     3.1.  Use Cases
-       3.1.1.  Digital Emblems under International Humanitarian Law
-     3.2.  Requirements
-       3.2.1.  Authenticity
-       3.2.2.  Authorization
-       3.2.3.  Accountability
-       3.2.4.  Undetectable Validation
+     3.1.  Digital Emblems under International Humanitarian Law
+       3.1.1.  Requirements
    4.  Other Use Cases and Requirements
-     4.1.  Use Cases
-     4.2.  Requirements
-   5.  Security Considerations
-   6.  IANA Considerations
-   7.  Normative References
+   5.  Requirements
+   6.  Security Considerations
+   7.  IANA Considerations
+   8.  Normative References
    Acknowledgments
    Author's Address
 
@@ -98,9 +92,7 @@ Table of Contents
 
 3.  Use Cases and Requirements for Initial Scope
 
-3.1.  Use Cases
-
-3.1.1.  Digital Emblems under International Humanitarian Law
+3.1.  Digital Emblems under International Humanitarian Law
 
    The Geneva Conventions and their Additional Protocols constitute the
    core of International Humanitarian Law (IHL) and establish legal
@@ -123,86 +115,35 @@ Table of Contents
       containing dangerous forces, i.e., dams, dikes, and nuclear
       generating facilities.
 
+3.1.1.  Requirements
+
    Digital emblems under IHL MUST identify the issuing party and MUST
-   provide a means for authorization by third parties.
+   provide a means for authorization by third parties.  Additionally,
+   this use case has the following requirements:
 
-3.2.  Requirements
+   *  Authenticity
 
-3.2.1.  Authenticity
+   *  Authorization and Decentralized Authorization
 
-   Validators MUST be able to verify that an emblem was issued for the
-   respective bearer, issued by the claimed issuer (where applicable),
-   and that none of its associated data was changed.
+   *  Accountability
 
-   Use cases that have this requirement:
+   *  Revocation
 
-   *  Emblems under IHL
-
-3.2.2.  Authorization
-
-   Validators MUST be able to verify that an emblem issuer was
-   authorized to issue the emblem.  Authorizing parties MAY limit what
-   emblems an issuer can issue, e.g., they MAY limit issuance to certain
-   bearers.
-
-   Use cases that have this requirement:
-
-   *  Emblems under IHL
-
-3.2.2.1.  Decentralized Authorization
-
-   Anyone MUST be able to authorize an issuer.
-
-   Use cases that have this requirement:
-
-   *  Emblems under IHL
-
-3.2.3.  Accountability
-
-   Emblem issuance and authorization of issuers (where applicable) MUST
-   be attributable to issuers and authorizing parties.  Authorizing
-   parties and emblem issuers MUST NOT be able to repudiate that they
-   issued an emblem or authorization.
-
-   Use cases that have this requirement:
-
-   *  Emblems under IHL
-
-3.2.3.1.  Revocation
-
-   Emblems and authorizations MUST be revokable within reasonable
-   windows of time.  Depending on the design, it may suffice to rely on
-   expiration of short-lived emblems and authorization effectively as a
-   revocation mechanism.
-
-   Use cases that have this requirement:
-
-   *  Emblems under IHL
-
-3.2.4.  Undetectable Validation
-
-   Emblem issuers MUST NOT be able to detect whether someone is
-   requesting or validating emblems issued by them.
-
-   Use cases that have this requirement:
-
-   *  Emblems under IHL
+   *  Undetectable Validation
 
 4.  Other Use Cases and Requirements
 
-4.1.  Use Cases
+5.  Requirements
 
-4.2.  Requirements
-
-5.  Security Considerations
+6.  Security Considerations
 
    TODO Security
 
-6.  IANA Considerations
+7.  IANA Considerations
 
    This document has no IANA actions.
 
-7.  Normative References
+8.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,

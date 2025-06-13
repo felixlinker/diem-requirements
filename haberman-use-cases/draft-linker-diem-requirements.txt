@@ -127,7 +127,7 @@ Table of Contents
 
 4.2.  Marking of Brand-Associated Shipments
 
-   World Intellectual Property Organization (WIPO) administers treaters,
+   World Intellectual Property Organization (WIPO) administers treaties,
    in particular the Madrid Protocol, that allow brands to mark their
    shipments with an emblem so that customs agents can identify
    legitimate products.
@@ -139,12 +139,12 @@ Table of Contents
 
    The International Civil Aviation Organization (ICAO) requires that
    civil aviation flights are protected and that one can verify them to
-   not be dual-use (i.e., not carrying military cargo).
+   not be dual-use, e.g., not carrying military cargo.
 
    An emblem MUST carry a geographic description of the flight plan, its
    current location, and a textual description of the flight including
-   its manifest, identifying characteristics, and its identity, e.g.,
-   tail number.  An emblem may need to also reference a flight manifest.
+   its manifest, identifying characteristics, e.g., tail number.  An
+   emblem may need to also reference a flight manifest.
 
 5.  Security Considerations
 

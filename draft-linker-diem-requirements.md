@@ -75,15 +75,15 @@ The description MUST be accessible only by authorized parties, e.g., customs age
 
 ## Marking of Brand-Associated Shipments
 
-World Intellectual Property Organization (WIPO) administers treaters, in particular the Madrid Protocol, that allow brands to mark their shipments with an emblem so that customs agents can identify legitimate products.
+World Intellectual Property Organization (WIPO) administers treaties, in particular the Madrid Protocol, that allow brands to mark their shipments with an emblem so that customs agents can identify legitimate products.
 
 An emblem MUST identify the copyright/brand image, provide a textual description of the shipment, and a chain-of-custody/provenance.
 
 ## Marking of Civil Aviation Flights
 
-The International Civil Aviation Organization (ICAO) requires that civil aviation flights are protected and that one can verify them to not be dual-use (i.e., not carrying military cargo).
+The International Civil Aviation Organization (ICAO) requires that civil aviation flights are protected and that one can verify them to not be dual-use, e.g., not carrying military cargo.
 
-An emblem MUST carry a geographic description of the flight plan, its current location, and a textual description of the flight including its manifest, identifying characteristics, and its identity, e.g., tail number.
+An emblem MUST carry a geographic description of the flight plan, its current location, and a textual description of the flight including its manifest, identifying characteristics, e.g., tail number.
 An emblem may need to also reference a flight manifest.
 
 # Security Considerations

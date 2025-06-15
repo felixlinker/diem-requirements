@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-12T01:40:45.354570+00:00",
+  "timestamp": "2025-06-15T01:49:57.226465+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -63,13 +63,13 @@
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-11T08:31:22Z",
+      "updatedAt": "2025-06-13T06:49:43Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
       "headRepository": "felixlinker/diem-requirements",
       "headRefName": "reqs",
-      "headRefOid": "69d201bf31e3158807d99955677d77a62da9879d",
+      "headRefOid": "f137e35d2b3ac33c630c861827667a804dd9f893",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -137,6 +137,58 @@
           ]
         }
       ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOO3I8WM6aVZoh",
+      "title": "Use case of emblems under IHL",
+      "url": "https://github.com/felixlinker/diem-requirements/pull/2",
+      "state": "OPEN",
+      "author": "felixlinker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR adds the use case of emblems under IHL. It references requirements as introduced in #1 (as of f137e35d2b3ac33c630c861827667a804dd9f893).",
+      "createdAt": "2025-06-13T06:55:04Z",
+      "updatedAt": "2025-06-13T06:55:04Z",
+      "baseRepository": "felixlinker/diem-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
+      "headRepository": "felixlinker/diem-requirements",
+      "headRefName": "ihl-emblems",
+      "headRefOid": "63f46dd4aba0c6559ea03fbb19ed34521da0a324",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOO3I8WM6aVxjm",
+      "title": "draft-haberman-digital-emblem-ps-03 use cases",
+      "url": "https://github.com/felixlinker/diem-requirements/pull/3",
+      "state": "OPEN",
+      "author": "felixlinker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This pull requests adds use cases from the draft https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03 to the document.\r\n\r\nI did not include IHL emblems as they are covered by #2. I also did not include UN and WHO use cases as they were underspecified. I hope I reflect the use cases faithfully. Please let me know if not!",
+      "createdAt": "2025-06-13T07:38:27Z",
+      "updatedAt": "2025-06-13T07:38:27Z",
+      "baseRepository": "felixlinker/diem-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
+      "headRepository": "felixlinker/diem-requirements",
+      "headRefName": "haberman-use-cases",
+      "headRefOid": "d6a34f992d98b1aab8e5bab44e850586ebe9e704",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }

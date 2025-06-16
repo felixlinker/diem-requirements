@@ -63,7 +63,7 @@ The requirements of these use cases are not complete and would need to be invest
 
 ## Marking of Hazardous Materials
 
-The Organization for the Prohibition of Chemical Weapons (OPCW), the Inrernational Atomic Energy Agency (IAEA), and the Basel Convention require that certain, dangerous materials are marked during shipment.
+The Organization for the Prohibition of Chemical Weapons (OPCW), the International Atomic Energy Agency (IAEA), and the Basel Convention require that certain, dangerous materials are marked during shipment.
 Concretely:
 
 - The OPCW requires marking of Schedule 1 chemicals.

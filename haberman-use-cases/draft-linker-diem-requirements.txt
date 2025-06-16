@@ -3,9 +3,9 @@
 
 
 Digital Emblems                                                F. Linker
-Internet-Draft                                              13 June 2025
+Internet-Draft                                              16 June 2025
 Intended status: Informational                                          
-Expires: 15 December 2025
+Expires: 18 December 2025
 
 
                     DIEM Use Cases and Requirements
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 December 2025.
+   This Internet-Draft will expire on 18 December 2025.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 4.1.  Marking of Hazardous Materials
 
    The Organization for the Prohibition of Chemical Weapons (OPCW), the
-   Inrernational Atomic Energy Agency (IAEA), and the Basel Convention
+   International Atomic Energy Agency (IAEA), and the Basel Convention
    require that certain, dangerous materials are marked during shipment.
    Concretely:
 

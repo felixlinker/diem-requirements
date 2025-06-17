@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-15T01:49:57.226465+00:00",
+  "timestamp": "2025-06-17T01:42:06.751290+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-13T06:49:43Z",
+      "updatedAt": "2025-06-16T15:26:31Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -135,6 +135,26 @@
               "updatedAt": "2025-06-11T08:29:29Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6uy-D9",
+          "commit": {
+            "abbreviatedOid": "f137e35"
+          },
+          "author": "rohanmahy",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T15:26:22Z",
+          "updatedAt": "2025-06-16T15:26:31Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "How do the requirements in https://www.ietf.org/archive/id/draft-haberman-digital-emblem-ps-03.html#name-notional-requirements-for-d mesh with this list?",
+              "createdAt": "2025-06-16T15:26:22Z",
+              "updatedAt": "2025-06-16T15:26:31Z"
+            }
+          ]
         }
       ]
     },
@@ -150,7 +170,7 @@
       "labels": [],
       "body": "This PR adds the use case of emblems under IHL. It references requirements as introduced in #1 (as of f137e35d2b3ac33c630c861827667a804dd9f893).",
       "createdAt": "2025-06-13T06:55:04Z",
-      "updatedAt": "2025-06-13T06:55:04Z",
+      "updatedAt": "2025-06-16T15:24:46Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -162,7 +182,48 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOO3I8WM6uy6dw",
+          "commit": {
+            "abbreviatedOid": "63f46dd"
+          },
+          "author": "rohanmahy",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T15:21:41Z",
+          "updatedAt": "2025-06-16T15:21:41Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "I think this heading might be confusing since it is immediately under use cases for initial scope. That the use cases are related to IHL does not make them initial scope. Most of the pure-digital bearer use cases for IHL are in scope, but not *because* they are IHL.",
+              "createdAt": "2025-06-16T15:21:41Z",
+              "updatedAt": "2025-06-16T15:21:41Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6uy8xf",
+          "commit": {
+            "abbreviatedOid": "63f46dd"
+          },
+          "author": "rohanmahy",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T15:24:46Z",
+          "updatedAt": "2025-06-16T15:24:46Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "This makes no mention that hospitals and their resources are protected whether they display one of RedC* emblems or not. A hospital of a medical NGO that does not use those symbols but instead uses for example their own logo is still protected under IHL. ",
+              "createdAt": "2025-06-16T15:24:46Z",
+              "updatedAt": "2025-06-16T15:24:46Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 3,
@@ -176,19 +237,48 @@
       "labels": [],
       "body": "This pull requests adds use cases from the draft https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03 to the document.\r\n\r\nI did not include IHL emblems as they are covered by #2. I also did not include UN and WHO use cases as they were underspecified. I hope I reflect the use cases faithfully. Please let me know if not!",
       "createdAt": "2025-06-13T07:38:27Z",
-      "updatedAt": "2025-06-13T07:38:27Z",
+      "updatedAt": "2025-06-16T15:27:25Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
       "headRepository": "felixlinker/diem-requirements",
       "headRefName": "haberman-use-cases",
-      "headRefOid": "d6a34f992d98b1aab8e5bab44e850586ebe9e704",
+      "headRefOid": "7686dc8c616bffdb9ccab3845f5eaf63bd51f431",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "rohanmahy",
+          "authorAssociation": "NONE",
+          "body": "This is also missing the Press usage case and the UNESCO use case.",
+          "createdAt": "2025-06-16T15:27:25Z",
+          "updatedAt": "2025-06-16T15:27:25Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOO3I8WM6uyO6K",
+          "commit": {
+            "abbreviatedOid": "d6a34f9"
+          },
+          "author": "rohanmahy",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-16T14:35:37Z",
+          "updatedAt": "2025-06-16T14:35:38Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "```suggestion\r\nThe Organization for the Prohibition of Chemical Weapons (OPCW), the International Atomic Energy Agency (IAEA), and the Basel Convention require that certain, dangerous materials are marked during shipment.\r\n```",
+              "createdAt": "2025-06-16T14:35:38Z",
+              "updatedAt": "2025-06-16T14:35:38Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

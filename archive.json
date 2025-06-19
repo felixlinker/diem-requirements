@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-17T01:42:06.751290+00:00",
+  "timestamp": "2025-06-19T01:42:24.675725+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-16T15:26:31Z",
+      "updatedAt": "2025-06-18T07:44:10Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -155,6 +155,106 @@
               "updatedAt": "2025-06-16T15:26:31Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6u6tii",
+          "commit": {
+            "abbreviatedOid": "f137e35"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T08:18:42Z",
+          "updatedAt": "2025-06-17T08:18:42Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "MUST provide a clearly detectable and unambiguous marking mappable to enable verification,\r\n> I did not understand this requirement.\r\n\r\nMUST be machine-readable to enable automated verification,\r\n> I found this reuqirement redundant and clear from context.\r\n\r\nMUST be capable of carrying a visual representation of the physical emblem it represents,\r\n> Included as \"Visual\"\r\n\r\nMUST carry an unambiguous indication of the international law or laws conferring protection upon the entity marked with the emblem,\r\n> Included as \"Law Carrying\"\r\n\r\nMUST be possible to associate with a range or specific quantity of persons or items,\r\n> Included as \"Physical Binding\" (and sub-requirements)\r\n\r\nMUST be possible to associate with online services (e.g., websites, email servers, databases),\r\nMUST be possible to associate with data in transit or at rest,\r\nMUST be possible to associate with network-addressable equipment (e.g., routers, servers, laptops, IoT devices),\r\n> I found these requirements better to be addressed by the scope and use cases and not put as requirements. In the initial scope, we already say that bearers will be identified by FQDN, for example.\r\n\r\nMUST be possible to associate with a physical object (e.g., building, vehicle, container),\r\n> Included as \"Physical Binding\"\r\n\r\nMUST be possible to associate with a person or group of people\r\n> Included as \"Identity Binding\"",
+              "createdAt": "2025-06-17T08:18:42Z",
+              "updatedAt": "2025-06-17T08:18:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vCtn5",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "cdeccio",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T18:42:43Z",
+          "updatedAt": "2025-06-17T18:42:43Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "I'm not sure what this means.  Could you expound and/or provide an example?",
+              "createdAt": "2025-06-17T18:42:43Z",
+              "updatedAt": "2025-06-17T18:42:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vCwvW",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "cdeccio",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T18:46:38Z",
+          "updatedAt": "2025-06-17T18:46:38Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "I would like to better understand the motivation behind this requirement.  Could you provide a practical example?",
+              "createdAt": "2025-06-17T18:46:38Z",
+              "updatedAt": "2025-06-17T18:47:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vH6X2",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-18T07:40:03Z",
+          "updatedAt": "2025-06-18T07:40:04Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "Yes, the point is that there cannot be, e.g., a registry or dedicated set of authorizers. For example, one could consider root CAs as such a dedicated set of authorizers in the context of the Web PKI. (It's a bit more nuanced, because iirc are chosen by browser vendors, i.e., the spec doesn't mandate a dedicated set of authorizers, but I hope the example still helps.) This is a requirement for emblems under IHL, because displaying them (most often) requires authorization from states, but states themselves must not require authorization to do so.\r\n\r\nMaybe \"anyone\" is a bit too strict, though. I don't need my mother to authorize emblem usage :)",
+              "createdAt": "2025-06-18T07:40:03Z",
+              "updatedAt": "2025-06-18T07:40:30Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vH9zp",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-18T07:44:10Z",
+          "updatedAt": "2025-06-18T07:44:10Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "I hope the first part of the requirement is clear, namely, that emblems and authorizations must carry the identity of the signer. This is very typical for certificate-style designs, but not a given.\r\n\r\nThe second part is about being able to hold illicit display of digital emblems accountable. If someone illegitamtely displays an emblem (which, for the most part, can only be determined after the fact), we must be able to hold that display accountable. Using digital signatures already goes a long way to realize this requirement!\r\n\r\nOne could make the requirement stronger and require accountability directly, though, it may be unclear what this means.",
+              "createdAt": "2025-06-18T07:44:10Z",
+              "updatedAt": "2025-06-18T07:44:10Z"
+            }
+          ]
         }
       ]
     },
@@ -170,7 +270,7 @@
       "labels": [],
       "body": "This PR adds the use case of emblems under IHL. It references requirements as introduced in #1 (as of f137e35d2b3ac33c630c861827667a804dd9f893).",
       "createdAt": "2025-06-13T06:55:04Z",
-      "updatedAt": "2025-06-16T15:24:46Z",
+      "updatedAt": "2025-06-17T08:20:30Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -222,6 +322,46 @@
               "updatedAt": "2025-06-16T15:24:46Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6u6utR",
+          "commit": {
+            "abbreviatedOid": "63f46dd"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T08:19:50Z",
+          "updatedAt": "2025-06-17T08:19:50Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "But the heading does not say we include them because they are IHL? It just says that digital emblems under IHL are a use case under the intial scope.",
+              "createdAt": "2025-06-17T08:19:50Z",
+              "updatedAt": "2025-06-17T08:19:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6u6vYP",
+          "commit": {
+            "abbreviatedOid": "63f46dd"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-17T08:20:30Z",
+          "updatedAt": "2025-06-17T08:20:30Z",
+          "comments": [
+            {
+              "originalPosition": 9,
+              "body": "That is true. It is _slightly_ hinted towards when saying \"which inform other parties\" (not \"which give\"!). Could go into more detail here.",
+              "createdAt": "2025-06-17T08:20:30Z",
+              "updatedAt": "2025-06-17T08:20:30Z"
+            }
+          ]
         }
       ]
     },
@@ -237,7 +377,7 @@
       "labels": [],
       "body": "This pull requests adds use cases from the draft https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03 to the document.\r\n\r\nI did not include IHL emblems as they are covered by #2. I also did not include UN and WHO use cases as they were underspecified. I hope I reflect the use cases faithfully. Please let me know if not!",
       "createdAt": "2025-06-13T07:38:27Z",
-      "updatedAt": "2025-06-16T15:27:25Z",
+      "updatedAt": "2025-06-17T07:30:12Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -255,6 +395,13 @@
           "body": "This is also missing the Press usage case and the UNESCO use case.",
           "createdAt": "2025-06-16T15:27:25Z",
           "updatedAt": "2025-06-16T15:27:25Z"
+        },
+        {
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "body": "UNESCO is covered by #2.\r\n\r\nPress will be covered by Michaela Shapiro. I invited her to contribute text as she knows far more about the problem.",
+          "createdAt": "2025-06-17T07:30:12Z",
+          "updatedAt": "2025-06-17T07:30:12Z"
         }
       ],
       "reviews": [

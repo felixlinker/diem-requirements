@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-19T01:42:24.675725+00:00",
+  "timestamp": "2025-06-22T01:49:34.173524+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-18T07:44:10Z",
+      "updatedAt": "2025-06-20T13:30:26Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -255,6 +255,106 @@
               "updatedAt": "2025-06-18T07:44:10Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vcFnV",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "cdeccio",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-19T14:58:45Z",
+          "updatedAt": "2025-06-19T14:58:46Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "Thanks. I think I understand you to mean that validators/consumers can authorize who they want (i.e., their equivalent of a set of root CAs)?  Does this also mean that authorized issuers can also extend that authorization to whom they want?  I'm not opposed to these, but if this is what you mean, then let's spell it out that way with something like the following:\r\n\r\n> There is no global registry of authorized issuers.  Issuers are authorized independently by validators and other issuers.",
+              "createdAt": "2025-06-19T14:58:46Z",
+              "updatedAt": "2025-06-19T14:58:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vcSQ7",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "cdeccio",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-19T15:19:33Z",
+          "updatedAt": "2025-06-19T15:19:33Z",
+          "comments": [
+            {
+              "originalPosition": 26,
+              "body": "Okay, that makes sense - thanks!\r\n\r\n",
+              "createdAt": "2025-06-19T15:19:33Z",
+              "updatedAt": "2025-06-19T15:19:33Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vdAxg",
+          "commit": {
+            "abbreviatedOid": "9838ecb"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-19T16:35:21Z",
+          "updatedAt": "2025-06-19T16:35:21Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "I don't think that's entirely what I mean, but it seems related.\r\n\r\nBasically, I want to require that there is no one who tells someone who an auhtorizing party is (by the spec). For example, a draft could say: \"There is a IANA registry for DIEM-authorizing parties and a DIEM designated experts group decides who is in that registry and validators must only accept emblems authorized by one of these issuers.\" This would be a straightforward violation of that requirement.\r\n\r\nIf I decide tomorrow that I want to authorize someone to display digital emblems, I should be able to do that with reaonsable effort. I should not be required to ask for permission from a fixed authority, or I should not be required to be in some registry or similar.",
+              "createdAt": "2025-06-19T16:35:21Z",
+              "updatedAt": "2025-06-19T16:35:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vmyFL",
+          "commit": {
+            "abbreviatedOid": "f137e35"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-20T13:27:08Z",
+          "updatedAt": "2025-06-20T13:27:09Z",
+          "comments": [
+            {
+              "originalPosition": 45,
+              "body": "```suggestion\r\n```\r\n\r\nI suggest removing these requirements. For certain use cases, such functionality could be useful, but I think it would be better integrated in validator clients and need not be realized by the IETF standard.",
+              "createdAt": "2025-06-20T13:27:09Z",
+              "updatedAt": "2025-06-20T13:27:09Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vm2f2",
+          "commit": {
+            "abbreviatedOid": "69d201b"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-20T13:30:26Z",
+          "updatedAt": "2025-06-20T13:30:26Z",
+          "comments": [
+            {
+              "originalPosition": 89,
+              "body": "I made up my mind. I think this requirement should be removed or replaced with more specific version. One could standardize a freetext field (or even binary), for example. Without further input why this is required and for what use case, I would remove it.",
+              "createdAt": "2025-06-20T13:30:26Z",
+              "updatedAt": "2025-06-20T13:30:26Z"
+            }
+          ]
         }
       ]
     },
@@ -377,7 +477,7 @@
       "labels": [],
       "body": "This pull requests adds use cases from the draft https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03 to the document.\r\n\r\nI did not include IHL emblems as they are covered by #2. I also did not include UN and WHO use cases as they were underspecified. I hope I reflect the use cases faithfully. Please let me know if not!",
       "createdAt": "2025-06-13T07:38:27Z",
-      "updatedAt": "2025-06-17T07:30:12Z",
+      "updatedAt": "2025-06-19T16:24:58Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -422,6 +522,46 @@
               "body": "```suggestion\r\nThe Organization for the Prohibition of Chemical Weapons (OPCW), the International Atomic Energy Agency (IAEA), and the Basel Convention require that certain, dangerous materials are marked during shipment.\r\n```",
               "createdAt": "2025-06-16T14:35:38Z",
               "updatedAt": "2025-06-16T14:35:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vcmPG",
+          "commit": {
+            "abbreviatedOid": "7686dc8"
+          },
+          "author": "cdeccio",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-19T15:50:08Z",
+          "updatedAt": "2025-06-19T15:50:08Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "Could we soften this to say: \"The focus of the initial DIEM efforts does not include the following use cases.\"",
+              "createdAt": "2025-06-19T15:50:08Z",
+              "updatedAt": "2025-06-19T15:50:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOO3I8WM6vc7sm",
+          "commit": {
+            "abbreviatedOid": "7686dc8"
+          },
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-06-19T16:24:58Z",
+          "updatedAt": "2025-06-19T16:24:58Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "To me, both sentences say the exact same thing, so I don't mind. But could you explain how they differ? (If they were the same to you, I guess you wouldn't propose the change.)",
+              "createdAt": "2025-06-19T16:24:58Z",
+              "updatedAt": "2025-06-19T16:24:58Z"
             }
           ]
         }

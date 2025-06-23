@@ -110,10 +110,6 @@ An emblem MUST be restrictable by geographic scope.
 
 An emblem MUST be possible to associate with a person or group of people.
 
-## Human-Readable Validation Data
-
-An emblem MUST be capable of providing additional relevant information (e.g., photographs, unique identifiers) which can be used to corroborate the association of the digital emblem with the entity bearing it.
-
 # Security Considerations
 
 TODO Security

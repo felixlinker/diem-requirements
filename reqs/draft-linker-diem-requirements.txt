@@ -3,9 +3,9 @@
 
 
 Digital Emblems                                                F. Linker
-Internet-Draft                                              13 June 2025
+Internet-Draft                                              23 June 2025
 Intended status: Informational                                          
-Expires: 15 December 2025
+Expires: 25 December 2025
 
 
                     DIEM Use Cases and Requirements
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 December 2025.
+   This Internet-Draft will expire on 25 December 2025.
 
 Copyright Notice
 
@@ -83,7 +83,6 @@ Table of Contents
        5.9.1.  Quantifiable
        5.9.2.  Geographic
      5.10. Identity Binding
-     5.11. Human-Readable Validation Data
    6.  Security Considerations
    7.  IANA Considerations
    8.  Normative References
@@ -177,13 +176,6 @@ Table of Contents
 
    An emblem MUST be possible to associate with a person or group of
    people.
-
-5.11.  Human-Readable Validation Data
-
-   An emblem MUST be capable of providing additional relevant
-   information (e.g., photographs, unique identifiers) which can be used
-   to corroborate the association of the digital emblem with the entity
-   bearing it.
 
 6.  Security Considerations
 

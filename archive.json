@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-24T01:42:26.227786+00:00",
+  "timestamp": "2025-06-26T01:41:51.390671+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-23T09:37:29Z",
+      "updatedAt": "2025-06-24T15:44:31Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
@@ -81,6 +81,13 @@
           "body": "Felix,\r\nAs you didn't post to the list for comment, I would avoid removing\r\nrequirements. Even after posting to the list, it is typical to wait several\r\nweeks.\r\n\r\nHave you tried reaching out one-on-one to the source of these requirements\r\nto have short call with them?\r\nthanks,\r\n-rohan\r\n\r\nOn Mon, Jun 23, 2025, 00:27 Felix Linker ***@***.***> wrote:\r\n\r\n> ***@***.**** commented on this pull request.\r\n> ------------------------------\r\n>\r\n> In draft-linker-diem-requirements.md\r\n> <https://github.com/felixlinker/diem-requirements/pull/1#discussion_r2160907492>\r\n> :\r\n>\r\n> > +#### Geographic\r\n> +\r\n> +An emblem MUST be restrictable by geographic scope.\r\n> +\r\n> +Use cases that have this requirement:\r\n>\r\n> Removed this requirement as I did not get any input.\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/felixlinker/diem-requirements/pull/1#discussion_r2160907492>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/AADSQPWSV4DQ3DZXT4LTEBL3E6T6PAVCNFSM6AAAAAB7B2PDE2VHI2DSMVQWIX3LMV43YUDVNRWFEZLROVSXG5CSMV3GSZLXHMZDSNBYHE3DKMJVGA>\r\n> .\r\n> You are receiving this because you commented.Message ID:\r\n> ***@***.***>\r\n>\r\n",
           "createdAt": "2025-06-23T09:37:29Z",
           "updatedAt": "2025-06-23T09:37:29Z"
+        },
+        {
+          "author": "felixlinker",
+          "authorAssociation": "OWNER",
+          "body": "> Felix,\r\n> As you didn't post to the list for comment, I would avoid removing\r\n> requirements. Even after posting to the list, it is typical to wait several\r\n> weeks.\r\n>\r\n> Have you tried reaching out one-on-one to the source of these requirements\r\n> to have short call with them?\r\n> thanks,\r\n> -rohan\r\n\r\nI did not try to schedule a call, but I did share the PRs with other active participants, inviting them to provide feedback. That includes the source of these requirements (I presume you mean Bill an Brian).",
+          "createdAt": "2025-06-24T15:44:30Z",
+          "updatedAt": "2025-06-24T15:44:30Z"
         }
       ],
       "reviews": [

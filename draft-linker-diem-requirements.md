@@ -148,7 +148,7 @@ Depending on the design, it may suffice to rely on expiration of short-lived emb
 
 ## Undetectable Validation
 
-Emblem issuers MUST NOT be able to detect whether someone is requesting or validating emblems issued by them.
+Bearers MUST NOT be able to detect whether someone is requesting or validating emblems issued for them.
 
 ## Visual
 

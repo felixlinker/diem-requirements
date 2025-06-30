@@ -91,7 +91,9 @@ Table of Contents
      5.8.  Proximity-Based Distribution
      5.9.  Physical Binding
        5.9.1.  Quantifiable
+       5.9.2.  Geographic
      5.10. Identity Binding
+     5.11. Human-Readable Validation Data
    6.  Security Considerations
    7.  IANA Considerations
    8.  Normative References
@@ -289,10 +291,21 @@ Table of Contents
    An emblem MUST be possible to associate with a range or specific
    quantity of associated, physical assets.
 
+5.9.2.  Geographic
+
+   An emblem MUST be restrictable by geographic scope.
+
 5.10.  Identity Binding
 
    An emblem MUST be possible to associate with a person or group of
    people.
+
+5.11.  Human-Readable Validation Data
+
+   An emblem MUST be capable of providing additional relevant
+   information (e.g., photographs, unique identifiers) which can be used
+   to corroborate the association of the digital emblem with the entity
+   bearing it.
 
 6.  Security Considerations
 

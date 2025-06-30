@@ -130,8 +130,7 @@ Table of Contents
 
    Below listed use cases are intended to be addressed within the DIEM
    WG's initial scope (as chartered as of writing).  Every use case
-   lists its associated requirements, which are specified in
-   Section 3.1.1.
+   lists its associated requirements, which are specified in Section 5.
 
 3.1.  Digital Emblems under International Humanitarian Law
 

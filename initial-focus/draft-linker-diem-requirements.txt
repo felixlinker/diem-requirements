@@ -70,6 +70,8 @@ Table of Contents
    3.  Use Cases and Requirements for Initial Scope
      3.1.  Digital Emblems under International Humanitarian Law
        3.1.1.  Requirements
+     3.2.  Marking of the Press
+     3.3.  The Ramsar Convention
    4.  Other Use Cases and Requirements
      4.1.  Marking of Hazardous Materials
      4.2.  Marking of Brand-Associated Shipments
@@ -148,6 +150,14 @@ Table of Contents
    *  Revocation
 
    *  Undetectable Validation
+
+3.2.  Marking of the Press
+
+   TODO
+
+3.3.  The Ramsar Convention
+
+   TODO
 
 4.  Other Use Cases and Requirements
 

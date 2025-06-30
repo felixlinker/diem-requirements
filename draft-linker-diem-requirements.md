@@ -55,7 +55,7 @@ The WG intends to address use cases presented in {{uc-initial}} within the WG's 
 # Use Cases and Requirements for Initial Scope {#uc-initial}
 
 Below listed use cases are intended to be addressed within the DIEM WG's initial scope (as chartered as of writing).
-Every use case lists its associated requirements, which are specified in {{#reqs}}.
+Every use case lists its associated requirements, which are specified in {{reqs}}.
 
 ## Digital Emblems under International Humanitarian Law
 

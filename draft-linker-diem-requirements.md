@@ -193,13 +193,9 @@ This document has no IANA actions.
 
 # Contributors
 
-Parts of this document are base on {{?I-D.draft-haberman-digital-emblem-ps-03}}, which was authored by:
-
-- Brian Haberman (brian@innovationslab.net)
-- Tommy Jensen (tojens@microsoft.com)
-- Bill Woodcock (woody@pch.net)
-
-Rohan Mahy (rohan.ietf@gmail.com) provided valuable feedback on writing this document.
+Parts of this document are based on {{?I-D.draft-haberman-digital-emblem-ps-03}} and {{?I-D.draft-linker-digital-emblem-02}}.
+As part of that, Brian Haberman (brian@innovationslab.net), Tommy Jensen (tojens@microsoft.com), and Bill Woodcock (woody@pch.net) contributed to writing this document.
+Furhermore, Rohan Mahy (rohan.ietf@gmail.com) provided valuable feedback on contents and structure, and Samit D'Cunha (sdcunha@icrc.org) provided feedback on the IHL aspects of this document.
 
 --- back
 

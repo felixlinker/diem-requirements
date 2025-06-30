@@ -270,8 +270,8 @@ Table of Contents
 
 5.5.  Undetectable Validation
 
-   Emblem issuers MUST NOT be able to detect whether someone is
-   requesting or validating emblems issued by them.
+   Bearers MUST NOT be able to detect whether someone is requesting or
+   validating emblems issued for them.
 
 5.6.  Visual
 

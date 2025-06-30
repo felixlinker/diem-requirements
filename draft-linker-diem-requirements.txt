@@ -14,8 +14,8 @@ Expires: 1 January 2026
 Abstract
 
    The Digital Emblems (DIEM) working group (WG) will define an
-   architecture and discovery mechanism to present and validate _digital
-   emblems_. This document lists use cases for the current and future
+   architecture and discovery mechanism to present and validate digital
+   emblems.  This document lists use cases for the current and future
    scope of the DIEM WG and their associated requirements.
 
 About This Document
@@ -106,14 +106,14 @@ Table of Contents
 1.  Introduction
 
    The Digital Emblems (DIEM) working group (WG) will define an
-   architecture and discovery mechanism to present and validate _digital
-   emblems_. Digital emblems extend the range of existing, identifying
+   architecture and discovery mechanism to present and validate digital
+   emblems.  Digital emblems extend the range of existing, identifying
    marks (for examples, see the use cases below) from the physical
    (visual and tactile) to the digital realm.  This document lists use
    cases for the current and future scope of the DIEM WG and their
    associated requirements.  As of writing, the DIEM has an initial
    scope that limits WG work to digital emblems that can be discovered
-   using the DNS and that identify their _bearer_ by a Fully Qualified
+   using the DNS and that identify their bearer by a Fully Qualified
    Domain Name (FQDN).  The WG intends to address use cases presented in
    Section 3 within the WG's initial scope, and presents use cases in
    Section 4 for future WG work and reference.
@@ -324,17 +324,15 @@ Table of Contents
 
 8.  Contributors
 
-   Parts of this document are base on
-   [I-D.draft-haberman-digital-emblem-ps-03], which was authored by:
-
-   *  Brian Haberman (brian@innovationslab.net)
-
-   *  Tommy Jensen (tojens@microsoft.com)
-
-   *  Bill Woodcock (woody@pch.net)
-
-   Rohan Mahy (rohan.ietf@gmail.com) provided valuable feedback on
-   writing this document.
+   Parts of this document are based on
+   [I-D.draft-haberman-digital-emblem-ps-03] and
+   [I-D.draft-linker-digital-emblem-02].  As part of that, Brian
+   Haberman (brian@innovationslab.net), Tommy Jensen
+   (tojens@microsoft.com), and Bill Woodcock (woody@pch.net) contributed
+   to writing this document.  Furhermore, Rohan Mahy
+   (rohan.ietf@gmail.com) provided valuable feedback on contents and
+   structure, and Samit D'Cunha (sdcunha@icrc.org) provided feedback on
+   the IHL aspects of this document.
 
 9.  References
 
@@ -357,6 +355,13 @@ Table of Contents
               Internet-Draft, draft-haberman-digital-emblem-ps-03, 18
               November 2024, <https://datatracker.ietf.org/doc/html/
               draft-haberman-digital-emblem-ps-03>.
+
+   [I-D.draft-linker-digital-emblem-02]
+              Linker, F., Vignati, M., and T. Jensen, "Problem Statement
+              for a Digital Emblem", Work in Progress, Internet-Draft,
+              draft-linker-digital-emblem-02, 28 June 2024,
+              <https://datatracker.ietf.org/doc/html/draft-linker-
+              digital-emblem-02>.
 
 Acknowledgments
 

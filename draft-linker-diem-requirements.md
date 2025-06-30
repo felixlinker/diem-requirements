@@ -74,6 +74,14 @@ Additionally, this use case has the following requirements:
 - Revocation
 - Undetectable Validation
 
+## Marking of the Press
+
+TODO
+
+## The Ramsar Convention
+
+TODO
+
 # Other Use Cases and Requirements
 
 The initial DIEM efforts do not include the following use cases.

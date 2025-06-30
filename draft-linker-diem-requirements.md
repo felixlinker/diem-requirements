@@ -168,6 +168,10 @@ An emblem MUST be possible to associate with physical assets, e.g., buildings, v
 
 An emblem MUST be possible to associate with a range or specific quantity of associated, physical assets.
 
+### Geographic
+
+An emblem MUST be restrictable by geographic scope.
+
 ## Identity Binding
 
 An emblem MUST be possible to associate with a person or group of people.

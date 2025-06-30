@@ -159,6 +159,11 @@ Table of Contents
       containing dangerous forces, i.e., dams, dikes, and nuclear
       generating facilities.
 
+   Digital emblems under IHL will be borne by network-connected and
+   network-addressable assets that enjoy aforementioned specific
+   protections under IHL and whose disruption would violate these
+   protections.
+
 3.1.1.  Requirements
 
    Digital emblems under IHL MUST identify the issuing party and MUST

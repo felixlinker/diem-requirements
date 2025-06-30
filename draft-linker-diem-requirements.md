@@ -69,6 +69,8 @@ The emblem only serves to inform others of these protections.
 - The emblem for the protection of civil defense is applied to certain assets for the protection of the civilian population against the dangers of hostilities or disasters.
 - The dangerous forces emblem is applied to works or installations containing dangerous forces, i.e., dams, dikes, and nuclear generating facilities.
 
+Digital emblems under IHL will be borne by network-connected and network-addressable assets that enjoy aforementioned specific protections under IHL and whose disruption would violate these protections.
+
 ### Requirements
 
 Digital emblems under IHL MUST identify the issuing party and MUST provide a means for authorization by third parties.

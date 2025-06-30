@@ -96,7 +96,10 @@ Table of Contents
      5.11. Human-Readable Validation Data
    6.  Security Considerations
    7.  IANA Considerations
-   8.  Normative References
+   8.  Contributors
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -315,7 +318,23 @@ Table of Contents
 
    This document has no IANA actions.
 
-8.  Normative References
+8.  Contributors
+
+   Parts of this document are base on
+   [I-D.draft-haberman-digital-emblem-ps-03], which was authored by:
+
+   *  Brian Haberman (brian@innovationslab.net)
+
+   *  Tommy Jensen (tojens@microsoft.com)
+
+   *  Bill Woodcock (woody@pch.net)
+
+   Rohan Mahy (rohan.ietf@gmail.com) provided valuable feedback on
+   writing this document.
+
+9.  References
+
+9.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -325,6 +344,15 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+9.2.  Informative References
+
+   [I-D.draft-haberman-digital-emblem-ps-03]
+              Haberman, B., Jensen, T., and B. Woodcock, "Problem
+              Statement for Digitized Emblems", Work in Progress,
+              Internet-Draft, draft-haberman-digital-emblem-ps-03, 18
+              November 2024, <https://datatracker.ietf.org/doc/html/
+              draft-haberman-digital-emblem-ps-03>.
 
 Acknowledgments
 

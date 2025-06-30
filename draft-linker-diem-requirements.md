@@ -35,21 +35,27 @@ informative:
 
 --- abstract
 
-TODO Abstract
-
+The Digital Emblems (DIEM) working group (WG) will define an architecture and discovery mechanism to present and validate *digital emblems*.
+This document lists use cases for the current and future scope of the DIEM WG and their associated requirements.
 
 --- middle
 
 # Introduction
 
-TODO Introduction
-
+The Digital Emblems (DIEM) working group (WG) will define an architecture and discovery mechanism to present and validate *digital emblems*.
+Digital emblems extend the range of existing, identifying marks (for examples, see the use cases below) from the physical (visual and tactile) to the digital realm.
+This document lists use cases for the current and future scope of the DIEM WG and their associated requirements.
+As of writing, the DIEM has an initial scope that limits WG work to digital emblems that can be discovered using the DNS and that identify their *bearer* by a Fully Qualified Domain Name (FQDN).
+The WG intends to address use cases presented in {{uc-initial}} within the WG's initial scope, and presents use cases in {{uc-other}} for future WG work and reference.
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
-# Use Cases and Requirements for Initial Scope
+# Use Cases and Requirements for Initial Scope {#uc-initial}
+
+Below listed use cases are intended to be addressed within the DIEM WG's initial scope (as chartered as of writing).
+Every use case lists its associated requirements, which are specified in {{requirements}}.
 
 ## Digital Emblems under International Humanitarian Law
 
@@ -82,7 +88,7 @@ TODO
 
 TODO
 
-# Other Use Cases and Requirements
+# Other Use Cases and Requirements {#uc-other}
 
 The initial DIEM efforts do not include the following use cases.
 They are listed here for documentation and future reference.

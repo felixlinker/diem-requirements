@@ -54,7 +54,7 @@ TODO Introduction
 ## Digital Emblems under International Humanitarian Law
 
 The Geneva Conventions and their Additional Protocols constitute the core of International Humanitarian Law (IHL) and establish legal rules on the conduct of armed conflict.
-Some assets enjoy certain specific protections under IHL, including that they must not be attacked, and IHL codifies four types of protective emblems for armed conflict, which inform other parties of these certain specific protections.
+Some assets enjoy certain specific protections under IHL, including that they must not be attacked, and IHL codifies four types of protective emblems for armed conflict, which inform other parties that marked assets benefit from one or several of these specific protections.
 Note that assets enjoy there protections irrespective of whether they are marked with the respective emblem.
 The emblem only serves to inform others of these protections.
 

@@ -3,9 +3,9 @@
 
 
 Digital Emblems                                                F. Linker
-Internet-Draft                                              13 June 2025
+Internet-Draft                                              30 June 2025
 Intended status: Informational                                          
-Expires: 15 December 2025
+Expires: 1 January 2026
 
 
                     DIEM Use Cases and Requirements
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 December 2025.
+   This Internet-Draft will expire on 1 January 2026.
 
 Copyright Notice
 
@@ -96,10 +96,13 @@ Table of Contents
 
    The Geneva Conventions and their Additional Protocols constitute the
    core of International Humanitarian Law (IHL) and establish legal
-   rules on the conduct of armed conflict.  They codify four types of
-   protective emblems for armed conflict, which inform other parties of
-   certain specific protections under IHL, including that they must not
-   be attacked.
+   rules on the conduct of armed conflict.  Some assets enjoy certain
+   specific protections under IHL, including that they must not be
+   attacked, and IHL codifies four types of protective emblems for armed
+   conflict, which inform other parties of these certain specific
+   protections.  Note that assets enjoy there protections irrespective
+   of whether they are marked with the respective emblem.  The emblem
+   only serves to inform others of these protections.
 
    *  The emblems of the Red Cross, Red Crescent, and Red Crystal are
       applied to assets of the medical services as well as the assets of

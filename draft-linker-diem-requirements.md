@@ -76,7 +76,7 @@ Additionally, this use case has the following requirements:
 
 # Other Use Cases and Requirements
 
-Use cases listed in the Section will not be addressed within the initial scope of DIEM.
+The initial DIEM efforts do not include the following use cases.
 They are listed here for documentation and future reference.
 The requirements of these use cases are not complete and would need to be investigated further when addressing the use cases.
 

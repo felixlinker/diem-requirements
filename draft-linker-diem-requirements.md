@@ -51,6 +51,29 @@ TODO Introduction
 
 # Use Cases and Requirements for Initial Scope
 
+## Digital Emblems under International Humanitarian Law
+
+The Geneva Conventions and their Additional Protocols constitute the core of International Humanitarian Law (IHL) and establish legal rules on the conduct of armed conflict.
+Some assets enjoy certain specific protections under IHL, including that they must not be attacked, and IHL codifies four types of protective emblems for armed conflict, which inform other parties of these certain specific protections.
+Note that assets enjoy there protections irrespective of whether they are marked with the respective emblem.
+The emblem only serves to inform others of these protections.
+
+- The emblems of the Red Cross, Red Crescent, and Red Crystal are applied to assets of the medical services as well as the assets of certain humanitarian operations.
+- The Blue Shield emblem is applied to cultural property.
+- The emblem for the protection of civil defense is applied to certain assets for the protection of the civilian population against the dangers of hostilities or disasters.
+- The dangerous forces emblem is applied to works or installations containing dangerous forces, i.e., dams, dikes, and nuclear generating facilities.
+
+### Requirements
+
+Digital emblems under IHL MUST identify the issuing party and MUST provide a means for authorization by third parties.
+Additionally, this use case has the following requirements:
+
+- Authenticity
+- Authorization and Decentralized Authorization
+- Accountability
+- Revocation
+- Undetectable Validation
+
 # Other Use Cases and Requirements
 
 # Requirements

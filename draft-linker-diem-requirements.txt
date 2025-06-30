@@ -151,11 +151,10 @@ Table of Contents
 
 4.  Other Use Cases and Requirements
 
-   Use cases listed in the Section will not be addressed within the
-   initial scope of DIEM.  They are listed here for documentation and
-   future reference.  The requirements of these use cases are not
-   complete and would need to be investigated further when addressing
-   the use cases.
+   The initial DIEM efforts do not include the following use cases.
+   They are listed here for documentation and future reference.  The
+   requirements of these use cases are not complete and would need to be
+   investigated further when addressing the use cases.
 
 4.1.  Marking of Hazardous Materials
 

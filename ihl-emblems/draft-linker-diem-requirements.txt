@@ -72,6 +72,18 @@ Table of Contents
        3.1.1.  Requirements
    4.  Other Use Cases and Requirements
    5.  Requirements
+     5.1.  Authenticity
+     5.2.  Authorization
+       5.2.1.  Decentralized Authorization
+     5.3.  Accountability
+     5.4.  Revocation
+     5.5.  Undetectable Validation
+     5.6.  Visual
+     5.7.  Law Carrying
+     5.8.  Proximity-Based Distribution
+     5.9.  Physical Binding
+       5.9.1.  Quantifiable
+     5.10. Identity Binding
    6.  Security Considerations
    7.  IANA Considerations
    8.  Normative References
@@ -137,6 +149,72 @@ Table of Contents
 4.  Other Use Cases and Requirements
 
 5.  Requirements
+
+5.1.  Authenticity
+
+   Validators MUST be able to verify that an emblem was issued for the
+   respective bearer, issued by the claimed issuer (where applicable),
+   and that none of its associated data was changed.
+
+5.2.  Authorization
+
+   Validators MUST be able to verify that an emblem issuer was
+   authorized to issue the emblem.  Authorizing parties MAY limit what
+   emblems an issuer can issue, e.g., they MAY limit issuance to certain
+   bearers.
+
+5.2.1.  Decentralized Authorization
+
+   Anyone MUST be able to authorize an issuer.
+
+5.3.  Accountability
+
+   Emblem issuance and authorization of issuers (where applicable) MUST
+   be attributable to issuers and authorizing parties.  Authorizing
+   parties and emblem issuers MUST NOT be able to repudiate that they
+   issued an emblem or authorization.
+
+5.4.  Revocation
+
+   Emblems and authorizations (where applicable) MUST be revokable
+   within reasonable windows of time.  Depending on the design, it may
+   suffice to rely on expiration of short-lived emblems and
+   authorization effectively as a revocation mechanism.
+
+5.5.  Undetectable Validation
+
+   Emblem issuers MUST NOT be able to detect whether someone is
+   requesting or validating emblems issued by them.
+
+5.6.  Visual
+
+   An emblem MUST be capable of carrying a visual representation of the
+   physical emblem it represents.
+
+5.7.  Law Carrying
+
+   An emblem MUST carry an unambiguous indication of the international
+   law or laws conferring the semantics of the emblem.
+
+5.8.  Proximity-Based Distribution
+
+   An emblem MUST be presentable using an in-band, proximity-based
+   protocol such as a QR code or RFID.
+
+5.9.  Physical Binding
+
+   An emblem MUST be possible to associate with physical assets, e.g.,
+   buildings, vehicles, or containers.
+
+5.9.1.  Quantifiable
+
+   An emblem MUST be possible to associate with a range or specific
+   quantity of associated, physical assets.
+
+5.10.  Identity Binding
+
+   An emblem MUST be possible to associate with a person or group of
+   people.
 
 6.  Security Considerations
 

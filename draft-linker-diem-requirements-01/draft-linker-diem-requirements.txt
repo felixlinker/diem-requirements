@@ -1,0 +1,373 @@
+
+
+
+
+Digital Emblems                                                F. Linker
+Internet-Draft                                              30 June 2025
+Intended status: Informational                                          
+Expires: 1 January 2026
+
+
+                    DIEM Use Cases and Requirements
+                 draft-linker-diem-requirements-latest
+
+Abstract
+
+   The Digital Emblems (DIEM) working group (WG) will define an
+   architecture and discovery mechanism to present and validate digital
+   emblems.  This document lists use cases for the current and future
+   scope of the DIEM WG and their associated requirements.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://felixlinker.github.io/diem-requirements/draft-linker-diem-
+   requirements.html.  Status information for this document may be found
+   at https://datatracker.ietf.org/doc/draft-linker-diem-requirements/.
+
+   Discussion of this document takes place on the Digital Emblems
+   Working Group mailing list (mailto:diem@ietf.org), which is archived
+   at https://mailarchive.ietf.org/arch/browse/diem.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/diem/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/felixlinker/diem-requirements.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 1 January 2026.
+
+Copyright Notice
+
+   Copyright (c) 2025 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Conventions and Definitions
+   3.  Use Cases and Requirements for Initial Scope
+     3.1.  Digital Emblems under International Humanitarian Law
+       3.1.1.  Requirements
+     3.2.  Marking of the Press
+     3.3.  The Ramsar Convention
+   4.  Other Use Cases and Requirements
+     4.1.  Marking of Hazardous Materials
+     4.2.  Marking of Brand-Associated Shipments
+     4.3.  Marking of Civil Aviation Flights
+   5.  Requirements
+     5.1.  Authenticity
+     5.2.  Authorization
+       5.2.1.  Decentralized Authorization
+     5.3.  Accountability
+     5.4.  Revocation
+     5.5.  Undetectable Validation
+     5.6.  Visual
+     5.7.  Law Carrying
+     5.8.  Proximity-Based Distribution
+     5.9.  Physical Binding
+       5.9.1.  Quantifiable
+       5.9.2.  Geographic
+     5.10. Identity Binding
+     5.11. Human-Readable Validation Data
+   6.  Security Considerations
+   7.  IANA Considerations
+   8.  Contributors
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
+   Acknowledgments
+   Author's Address
+
+1.  Introduction
+
+   The Digital Emblems (DIEM) working group (WG) will define an
+   architecture and discovery mechanism to present and validate digital
+   emblems.  Digital emblems extend the range of existing, identifying
+   marks (for examples, see the use cases below) from the physical
+   (visual and tactile) to the digital realm.  This document lists use
+   cases for the current and future scope of the DIEM WG and their
+   associated requirements.  As of writing, the DIEM has an initial
+   scope that limits WG work to digital emblems that can be discovered
+   using the DNS and that identify their bearer by a Fully Qualified
+   Domain Name (FQDN).  The WG intends to address use cases presented in
+   Section 3 within the WG's initial scope, and presents use cases in
+   Section 4 for future WG work and reference.
+
+2.  Conventions and Definitions
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+   "OPTIONAL" in this document are to be interpreted as described in
+   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+   capitals, as shown here.
+
+3.  Use Cases and Requirements for Initial Scope
+
+   Below listed use cases are intended to be addressed within the DIEM
+   WG's initial scope (as chartered as of writing).  Every use case
+   lists its associated requirements, which are specified in Section 5.
+
+3.1.  Digital Emblems under International Humanitarian Law
+
+   The Geneva Conventions and their Additional Protocols constitute the
+   core of International Humanitarian Law (IHL) and establish legal
+   rules on the conduct of armed conflict.  Some assets enjoy certain
+   specific protections under IHL, including that they must not be
+   attacked, and IHL codifies four types of protective emblems for armed
+   conflict, which inform other parties that marked assets benefit from
+   one or several of these specific protections.  Note that assets enjoy
+   there protections irrespective of whether they are marked with the
+   respective emblem.  The emblem only serves to inform others of these
+   protections.
+
+   *  The emblems of the Red Cross, Red Crescent, and Red Crystal are
+      applied to assets of the medical services as well as the assets of
+      certain humanitarian operations.
+
+   *  The Blue Shield emblem is applied to cultural property.
+
+   *  The emblem for the protection of civil defense is applied to
+      certain assets for the protection of the civilian population
+      against the dangers of hostilities or disasters.
+
+   *  The dangerous forces emblem is applied to works or installations
+      containing dangerous forces, i.e., dams, dikes, and nuclear
+      generating facilities.
+
+   Digital emblems under IHL will be borne by network-connected and
+   network-addressable assets that enjoy aforementioned specific
+   protections under IHL and whose disruption would violate these
+   protections.
+
+3.1.1.  Requirements
+
+   Digital emblems under IHL MUST identify the issuing party and MUST
+   provide a means for authorization by third parties.  Additionally,
+   this use case has the following requirements:
+
+   *  Authenticity
+
+   *  Authorization and Decentralized Authorization
+
+   *  Accountability
+
+   *  Revocation
+
+   *  Undetectable Validation
+
+3.2.  Marking of the Press
+
+   TODO
+
+3.3.  The Ramsar Convention
+
+   TODO
+
+4.  Other Use Cases and Requirements
+
+   The initial DIEM efforts do not include the following use cases.
+   They are listed here for documentation and future reference.  The
+   requirements of these use cases are not complete and would need to be
+   investigated further when addressing the use cases.
+
+4.1.  Marking of Hazardous Materials
+
+   The Organization for the Prohibition of Chemical Weapons (OPCW), the
+   International Atomic Energy Agency (IAEA), and the Basel Convention
+   require that certain, dangerous materials are marked during shipment.
+   Concretely:
+
+   *  The OPCW requires marking of Schedule 1 chemicals.
+
+   *  The IAEA administers several treaties related to the shipment of
+      atomic fuels and wasters across borders.
+
+   *  The Basel Convention regulates the trans-boundary movement of
+      hazardous wastes.
+
+   An emblem MUST provide a description, location, date, and quantity.
+   The description MUST be accessible only by authorized parties, e.g.,
+   customs agencies or material handlers.
+
+4.2.  Marking of Brand-Associated Shipments
+
+   World Intellectual Property Organization (WIPO) administers treaties,
+   in particular the Madrid Protocol, that allow brands to mark their
+   shipments with an emblem so that customs agents can identify
+   legitimate products.
+
+   An emblem MUST identify the copyright/brand image, provide a textual
+   description of the shipment, and a chain-of-custody/provenance.
+
+4.3.  Marking of Civil Aviation Flights
+
+   The International Civil Aviation Organization (ICAO) requires that
+   civil aviation flights are protected and that one can verify them to
+   not be dual-use, e.g., not carrying military cargo.
+
+   An emblem MUST carry a geographic description of the flight plan, its
+   current location, and a textual description of the flight including
+   its manifest, identifying characteristics, e.g., tail number.  An
+   emblem may need to also reference a flight manifest.
+
+5.  Requirements
+
+5.1.  Authenticity
+
+   Validators MUST be able to verify that an emblem was issued for the
+   respective bearer, issued by the claimed issuer (where applicable),
+   and that none of its associated data was changed.
+
+5.2.  Authorization
+
+   Validators MUST be able to verify that an emblem issuer was
+   authorized to issue the emblem.  Authorizing parties MAY limit what
+   emblems an issuer can issue, e.g., they MAY limit issuance to certain
+   bearers.
+
+5.2.1.  Decentralized Authorization
+
+   Anyone MUST be able to authorize an issuer.
+
+5.3.  Accountability
+
+   Emblem issuance and authorization of issuers (where applicable) MUST
+   be attributable to issuers and authorizing parties.  Authorizing
+   parties and emblem issuers MUST NOT be able to repudiate that they
+   issued an emblem or authorization.
+
+5.4.  Revocation
+
+   Emblems and authorizations (where applicable) MUST be revokable
+   within reasonable windows of time.  Depending on the design, it may
+   suffice to rely on expiration of short-lived emblems and
+   authorization effectively as a revocation mechanism.
+
+5.5.  Undetectable Validation
+
+   Emblem issuers MUST NOT be able to detect whether someone is
+   requesting or validating emblems issued by them.
+
+5.6.  Visual
+
+   An emblem MUST be capable of carrying a visual representation of the
+   physical emblem it represents.
+
+5.7.  Law Carrying
+
+   An emblem MUST carry an unambiguous indication of the international
+   law or laws conferring the semantics of the emblem.
+
+5.8.  Proximity-Based Distribution
+
+   An emblem MUST be presentable using an in-band, proximity-based
+   protocol such as a QR code or RFID.
+
+5.9.  Physical Binding
+
+   An emblem MUST be possible to associate with physical assets, e.g.,
+   buildings, vehicles, or containers.
+
+5.9.1.  Quantifiable
+
+   An emblem MUST be possible to associate with a range or specific
+   quantity of associated, physical assets.
+
+5.9.2.  Geographic
+
+   An emblem MUST be restrictable by geographic scope.
+
+5.10.  Identity Binding
+
+   An emblem MUST be possible to associate with a person or group of
+   people.
+
+5.11.  Human-Readable Validation Data
+
+   An emblem MUST be capable of providing additional relevant
+   information (e.g., photographs, unique identifiers) which can be used
+   to corroborate the association of the digital emblem with the entity
+   bearing it.
+
+6.  Security Considerations
+
+   TODO Security
+
+7.  IANA Considerations
+
+   This document has no IANA actions.
+
+8.  Contributors
+
+   Parts of this document are based on
+   [I-D.draft-haberman-digital-emblem-ps-03] and
+   [I-D.draft-linker-digital-emblem-02].  As part of that, Brian
+   Haberman (brian@innovationslab.net), Tommy Jensen
+   (tojens@microsoft.com), and Bill Woodcock (woody@pch.net) contributed
+   to writing this document.  Furhermore, Rohan Mahy
+   (rohan.ietf@gmail.com) provided valuable feedback on contents and
+   structure, and Samit D'Cunha (sdcunha@icrc.org) provided feedback on
+   the IHL aspects of this document.
+
+9.  References
+
+9.1.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+9.2.  Informative References
+
+   [I-D.draft-haberman-digital-emblem-ps-03]
+              Haberman, B., Jensen, T., and B. Woodcock, "Problem
+              Statement for Digitized Emblems", Work in Progress,
+              Internet-Draft, draft-haberman-digital-emblem-ps-03, 18
+              November 2024, <https://datatracker.ietf.org/doc/html/
+              draft-haberman-digital-emblem-ps-03>.
+
+   [I-D.draft-linker-digital-emblem-02]
+              Linker, F., Vignati, M., and T. Jensen, "Problem Statement
+              for a Digital Emblem", Work in Progress, Internet-Draft,
+              draft-linker-digital-emblem-02, 28 June 2024,
+              <https://datatracker.ietf.org/doc/html/draft-linker-
+              digital-emblem-02>.
+
+Acknowledgments
+
+   TODO acknowledge.
+
+Author's Address
+
+   Felix Linker
+   Email: linkerfelix@gmail.com

@@ -76,6 +76,35 @@ Additionally, this use case has the following requirements:
 
 # Other Use Cases and Requirements
 
+Use cases listed in the Section will not be addressed within the initial scope of DIEM.
+They are listed here for documentation and future reference.
+The requirements of these use cases are not complete and would need to be investigated further when addressing the use cases.
+
+## Marking of Hazardous Materials
+
+The Organization for the Prohibition of Chemical Weapons (OPCW), the International Atomic Energy Agency (IAEA), and the Basel Convention require that certain, dangerous materials are marked during shipment.
+Concretely:
+
+- The OPCW requires marking of Schedule 1 chemicals.
+- The IAEA administers several treaties related to the shipment of atomic fuels and wasters across borders.
+- The Basel Convention regulates the trans-boundary movement of hazardous wastes.
+
+An emblem MUST provide a description, location, date, and quantity.
+The description MUST be accessible only by authorized parties, e.g., customs agencies or material handlers.
+
+## Marking of Brand-Associated Shipments
+
+World Intellectual Property Organization (WIPO) administers treaties, in particular the Madrid Protocol, that allow brands to mark their shipments with an emblem so that customs agents can identify legitimate products.
+
+An emblem MUST identify the copyright/brand image, provide a textual description of the shipment, and a chain-of-custody/provenance.
+
+## Marking of Civil Aviation Flights
+
+The International Civil Aviation Organization (ICAO) requires that civil aviation flights are protected and that one can verify them to not be dual-use, e.g., not carrying military cargo.
+
+An emblem MUST carry a geographic description of the flight plan, its current location, and a textual description of the flight including its manifest, identifying characteristics, e.g., tail number.
+An emblem may need to also reference a flight manifest.
+
 # Requirements
 
 ## Authenticity

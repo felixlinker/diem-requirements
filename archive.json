@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-29T01:51:29.481771+00:00",
+  "timestamp": "2025-07-01T01:52:41.003644+00:00",
   "repo": "felixlinker/diem-requirements",
   "labels": [
     {
@@ -49,35 +49,54 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 5,
+      "id": "I_kwDOO3I8WM6-GrYi",
+      "title": "Phrasing of Decentralized Authorization requirement",
+      "url": "https://github.com/felixlinker/diem-requirements/issues/5",
+      "state": "OPEN",
+      "author": "felixlinker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "There was an unresolved conversation on the phrasing of \"Decentralized Authorization\" started by @cdeccio in this comment: https://github.com/felixlinker/diem-requirements/pull/1#discussion_r2152939817\n\nI reference this conversation here so that the discussion can be continued.",
+      "createdAt": "2025-06-30T18:11:19Z",
+      "updatedAt": "2025-06-30T18:11:19Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
       "id": "PR_kwDOO3I8WM6Z_HSR",
       "title": "Requirements",
       "url": "https://github.com/felixlinker/diem-requirements/pull/1",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "felixlinker",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "I synthesized a list of requirements from the following two drafts:\r\n\r\n- https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03\r\n- https://datatracker.ietf.org/doc/html/draft-linker-digital-emblem-02\r\n\r\nI did not include all requirements from draft-haberman-digital-emblem-ps-03 as some seem redundant/empty. Please let me know if you would like these requirements to be included. I am not certain of all text and will add some comments to the PR. Would be great to receive some input here!\r\n\r\nMy plan for the structure of the document is to add use cases to either as part of the initial scope or as other and then list at each requirement which use case has it. I find this the clearest to understand the problem space! Open to feedback here to.\r\n\r\nFor now, I put all requirements into the \"other\" part because there are no use cases in the initial scope section. As soon as we add use cases for the initial scope, we can move requirements up one by one.",
       "createdAt": "2025-06-11T08:26:03Z",
-      "updatedAt": "2025-06-24T15:44:31Z",
+      "updatedAt": "2025-06-30T13:20:02Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
       "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
       "headRepository": "felixlinker/diem-requirements",
       "headRefName": "reqs",
       "headRefOid": "9d960c2b3a5b0266da0cff6e8bd1c37877d85445",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-06-30T13:20:02Z",
+      "mergedAt": "2025-06-30T13:20:02Z",
+      "mergedBy": "felixlinker",
+      "mergeCommit": {
+        "oid": "19236af1ca609e318173c7d199993de573aeb4cc"
+      },
       "comments": [
         {
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "Felix,\r\nAs you didn't post to the list for comment, I would avoid removing\r\nrequirements. Even after posting to the list, it is typical to wait several\r\nweeks.\r\n\r\nHave you tried reaching out one-on-one to the source of these requirements\r\nto have short call with them?\r\nthanks,\r\n-rohan\r\n\r\nOn Mon, Jun 23, 2025, 00:27 Felix Linker ***@***.***> wrote:\r\n\r\n> ***@***.**** commented on this pull request.\r\n> ------------------------------\r\n>\r\n> In draft-linker-diem-requirements.md\r\n> <https://github.com/felixlinker/diem-requirements/pull/1#discussion_r2160907492>\r\n> :\r\n>\r\n> > +#### Geographic\r\n> +\r\n> +An emblem MUST be restrictable by geographic scope.\r\n> +\r\n> +Use cases that have this requirement:\r\n>\r\n> Removed this requirement as I did not get any input.\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/felixlinker/diem-requirements/pull/1#discussion_r2160907492>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/AADSQPWSV4DQ3DZXT4LTEBL3E6T6PAVCNFSM6AAAAAB7B2PDE2VHI2DSMVQWIX3LMV43YUDVNRWFEZLROVSXG5CSMV3GSZLXHMZDSNBYHE3DKMJVGA>\r\n> .\r\n> You are receiving this because you commented.Message ID:\r\n> ***@***.***>\r\n>\r\n",
           "createdAt": "2025-06-23T09:37:29Z",
           "updatedAt": "2025-06-23T09:37:29Z"
@@ -157,7 +176,7 @@
             "abbreviatedOid": "f137e35"
           },
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-06-16T15:26:22Z",
@@ -398,24 +417,26 @@
       "id": "PR_kwDOO3I8WM6aVZoh",
       "title": "Use case of emblems under IHL",
       "url": "https://github.com/felixlinker/diem-requirements/pull/2",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "felixlinker",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This PR adds the use case of emblems under IHL. It references requirements as introduced in #1 (as of f137e35d2b3ac33c630c861827667a804dd9f893).",
       "createdAt": "2025-06-13T06:55:04Z",
-      "updatedAt": "2025-06-17T08:20:30Z",
+      "updatedAt": "2025-06-30T13:29:07Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
-      "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
+      "baseRefOid": "19236af1ca609e318173c7d199993de573aeb4cc",
       "headRepository": "felixlinker/diem-requirements",
       "headRefName": "ihl-emblems",
-      "headRefOid": "63f46dd4aba0c6559ea03fbb19ed34521da0a324",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "b8de4eae6304b4a58dced2e531c129ed81bcd5c4",
+      "closedAt": "2025-06-30T13:29:07Z",
+      "mergedAt": "2025-06-30T13:29:07Z",
+      "mergedBy": "felixlinker",
+      "mergeCommit": {
+        "oid": "30535316c11c1942e362a79fab2dd4cf0d172879"
+      },
       "comments": [],
       "reviews": [
         {
@@ -424,7 +445,7 @@
             "abbreviatedOid": "63f46dd"
           },
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-06-16T15:21:41Z",
@@ -444,7 +465,7 @@
             "abbreviatedOid": "63f46dd"
           },
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-06-16T15:24:46Z",
@@ -505,28 +526,30 @@
       "id": "PR_kwDOO3I8WM6aVxjm",
       "title": "draft-haberman-digital-emblem-ps-03 use cases",
       "url": "https://github.com/felixlinker/diem-requirements/pull/3",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "felixlinker",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This pull requests adds use cases from the draft https://datatracker.ietf.org/doc/html/draft-haberman-digital-emblem-ps-03 to the document.\r\n\r\nI did not include IHL emblems as they are covered by #2. I also did not include UN and WHO use cases as they were underspecified. I hope I reflect the use cases faithfully. Please let me know if not!",
       "createdAt": "2025-06-13T07:38:27Z",
-      "updatedAt": "2025-06-19T16:24:58Z",
+      "updatedAt": "2025-06-30T13:32:23Z",
       "baseRepository": "felixlinker/diem-requirements",
       "baseRefName": "main",
-      "baseRefOid": "e1d6378d83603bf98bcabca4b9e06598a5268fba",
+      "baseRefOid": "30535316c11c1942e362a79fab2dd4cf0d172879",
       "headRepository": "felixlinker/diem-requirements",
       "headRefName": "haberman-use-cases",
-      "headRefOid": "7686dc8c616bffdb9ccab3845f5eaf63bd51f431",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "26de03ef4a3a2ad766bbd605a726c1498194c1c8",
+      "closedAt": "2025-06-30T13:32:23Z",
+      "mergedAt": "2025-06-30T13:32:23Z",
+      "mergedBy": "felixlinker",
+      "mergeCommit": {
+        "oid": "005b2d2e70a6c69184290fd8effb62260836a61e"
+      },
       "comments": [
         {
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "body": "This is also missing the Press usage case and the UNESCO use case.",
           "createdAt": "2025-06-16T15:27:25Z",
           "updatedAt": "2025-06-16T15:27:25Z"
@@ -546,7 +569,7 @@
             "abbreviatedOid": "d6a34f9"
           },
           "author": "rohanmahy",
-          "authorAssociation": "NONE",
+          "authorAssociation": "CONTRIBUTOR",
           "state": "COMMENTED",
           "body": "",
           "createdAt": "2025-06-16T14:35:37Z",
@@ -601,6 +624,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOO3I8WM6csudM",
+      "title": "Add \"the focus\"",
+      "url": "https://github.com/felixlinker/diem-requirements/pull/4",
+      "state": "OPEN",
+      "author": "felixlinker",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This exact phrasing was suggested by @cdeccio. I adopted most of the phrasing except for \"the focus\" because that had unclear implications to me. (Do we include them but just not focus on them? What does it mean to focus on some use cases but not nothers? Unclear.)\r\n\r\nI open this PR for transparency. Casey, would be good to hear what you think of current phrasing!",
+      "createdAt": "2025-06-30T13:38:07Z",
+      "updatedAt": "2025-06-30T13:51:08Z",
+      "baseRepository": "felixlinker/diem-requirements",
+      "baseRefName": "main",
+      "baseRefOid": "83851e18dd0625a7863e504c638250258305a12c",
+      "headRepository": "felixlinker/diem-requirements",
+      "headRefName": "initial-focus",
+      "headRefOid": "1468c16035bde85f2f75388745a36ff50d4436f7",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }

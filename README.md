@@ -1,4 +1,8 @@
-<!-- regenerate: on (set to off if you edit this file) -->
+<!-- regenerate: off (set to off if you edit this file) -->
+
+> [!WARNING]
+> This draft was effectively replaced by [draft-fainchtein-diem-use-cases](https://datatracker.ietf.org/doc/draft-fainchtein-diem-use-cases/) (hosted under https://github.com/rahelFain/combined-diem-uses-reqs/).
+> Thus, this repository was archived.
 
 # DIEM Use Cases and Requirements
 
